@@ -1,0 +1,200 @@
+.App {
+    text-align: center;
+}
+.social-footer i{
+    font-size: 20px;
+}
+.footer-navbar a{
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer-navbar li{
+    padding: 0px 10px;
+}
+.App > .main{
+    background: #f1f5f7;
+}
+.filter-sidebar-1 > .filter{
+    padding: 5px 10px;
+    background: white;
+    height:45px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.filter-sidebar-1 .external{
+    padding: 10px;
+    background: white;
+    height:45px;
+}
+.block-title{
+    font-size: 20px;
+}
+.filter-sidebar-1{
+    border: 1px solid #b9b9b9;
+}
+.filter-sidebar-1 .external{
+    overflow: hidden;
+}
+.filter-sidebar-1 .external .setting{
+    margin-top: 3px;
+}
+.filter .count{
+    font-size: 18px;
+}
+.filter-more{
+    height: 35px;
+    padding-top: 10px;
+    background: white;
+}
+.filter-more i{
+    font-size: 20px;
+}
+.filter-desc{
+    font-size: 14px;
+}
+.filter table{
+    height:100%;
+    width:100%;
+}
+.filter table tr td:first-child{
+    width:15%;
+}
+.filter table tr td:last-child{
+    width:15%;
+}
+.filter table tr td:nth-child(2){
+    width:70%;
+}
+.toggle-program{
+    float: left !important;
+    margin-right: 10px;
+}
+.toggle-program a{
+    margin-left: 0px !important;
+    width: 20px;
+}
+.toggle-program a i{
+    font-size: 20px;
+}
+.day-program .caption{
+    font-size: 20px !important;
+}
+.toggle-program-a .fa-chevron-down{
+    display: block;
+}
+.toggle-program-a .fa-chevron-right{
+    display: none;
+}
+.toggle-program-a.extended .fa-chevron-down{
+    display: none;
+}
+.toggle-program-a.extended .fa-chevron-right{
+    display: block;
+}
+.session-header, .session-detail{
+    overflow: hidden;
+    padding:10px;
+    display: flex;
+}
+.from-time, .session-title{
+    font-size: 15px;
+}
+.session-title{
+    padding-left: 10px;
+    width:80%;
+}
+.session{
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-bottom: none;
+}
+.session .first-row{
+    min-width: 70px;
+    width:10%;
+}
+.session-mid{
+    overflow: hidden;
+    padding:0px 10px;
+}
+.session-view-toggle a.less{
+    display: none;
+}
+.view-more a.more{
+    display: none;
+}
+.view-more a.less{
+    display: block;
+}
+.session .session-body{
+    display: none;
+}
+.day-program .session:last-child{
+    border-bottom: 1px solid #dbdbdb !important;   
+}
+.session-detail .profiles{
+    display: flex;
+}
+.session-detail .profiles .avatar{
+    width: 30%;
+}
+.session-detail .profiles .profile-desc{
+    width:70%;
+}
+.session-detail .profiles .avatar img{
+    width: 80px;
+}
+.profile-header{
+    padding: 50px 0px;
+    border-bottom: 5px solid #2c85d2;
+}
+.profile-header .season{
+    font-size: 35px;
+    color: #0a6fb7;
+}
+.profile-header .name{
+    font-size: 45px;
+    color:grey;
+}
+.profile-body{
+    padding: 30px 0px;
+}
+.profile-body .detail-role{
+    font-size: 35px;
+}
+.profile-body .profile-detail{
+    display: flex;
+}
+.profile-body .profile-detail .photo{
+    min-width:150px;
+    width: 15%;
+}
+.profile-body .profile-detail .photo img{
+    width: 100%;
+}
+.profile-body .profile-detail .profile-desc .small-name{
+    font-size: 30px;
+}
+.profile-body .profile-detail .profile-desc{
+    padding: 0px 20px;
+    width:85%;
+}
+.profile-body .profile-detail .profile-desc .full-role{
+    font-size: 20px;
+    color: grey;
+}
+.profile-body .profile-detail .profile-desc .intro{
+    font-size: 15px;
+}
+.profile-body .profile-detail .profile-desc .extra-info{
+    padding-left: 20px;
+}
+.profile-body .profile-detail .profile-desc .extra-info p{
+    font-size: 20px;
+    color:#0a6fb7;
+}
+.profile-body .profile-detail .profile-desc button{
+    font-size: 20px;
+}
+.day-program{
+    margin-bottom: 0px;
+}

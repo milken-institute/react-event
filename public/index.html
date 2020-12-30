@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/plugins/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/plugins/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/plugins/icheck/skins/square/_all.css"/>
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/components.css"/>
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/style.css"/>
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/style-responsive.css"/>
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/themes/red.css"/>
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/custom.css"/>
+    <title>MILKEN APP</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/assets/plugins/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/plugins/icheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.icheck').each(function() {
+            var checkboxClass = $(this).attr('data-checkbox') ? $(this).attr('data-checkbox') : 'icheckbox_minimal-grey';
+            var radioClass = $(this).attr('data-radio') ? $(this).attr('data-radio') : 'iradio_minimal-grey';
+
+            if (checkboxClass.indexOf('_line') > -1 || radioClass.indexOf('_line') > -1) {
+                $(this).iCheck({
+                    checkboxClass: checkboxClass,
+                    radioClass: radioClass,
+                    insert: '<div class="icheck_line-icon"></div>' + $(this).attr("data-label")
+                });
+            } else {
+                $(this).iCheck({
+                    checkboxClass: checkboxClass,
+                    radioClass: radioClass
+                });
+            }
+        });
+        });
+    </script>
+  </body>
+</html>
